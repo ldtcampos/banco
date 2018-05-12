@@ -9,16 +9,10 @@ public class Cliente {
     public Cliente() {
     }
 
-    public Cliente(int IdCliente, String Nombrecliente, String NIT) {
-        this.IdCliente = IdCliente;
-        this.Nombrecliente = Nombrecliente;
+    public Cliente(String NIT) {
         this.NIT = NIT;
-    }
-
-    public Cliente(String Nombrecliente, String NIT) {
-        this.Nombrecliente = Nombrecliente;
-        this.NIT = NIT;
-    }
+    }   
+    
 
     public int getIdCliente() {
         return IdCliente;
