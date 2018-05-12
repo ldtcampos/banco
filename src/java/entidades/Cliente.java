@@ -14,7 +14,7 @@ public class Cliente {
         this.Nombrecliente = Nombrecliente;
         this.NIT = NIT;
     }
-    
+   
     public int getIdCliente() {
         return IdCliente;
     }
