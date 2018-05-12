@@ -1,8 +1,7 @@
-
 package entidades;
 
-
 public class Cliente {
+
     private int IdCliente;
     private String Nombrecliente;
     private String NIT;
@@ -12,6 +11,11 @@ public class Cliente {
 
     public Cliente(int IdCliente, String Nombrecliente, String NIT) {
         this.IdCliente = IdCliente;
+        this.Nombrecliente = Nombrecliente;
+        this.NIT = NIT;
+    }
+
+    public Cliente(String Nombrecliente, String NIT) {
         this.Nombrecliente = Nombrecliente;
         this.NIT = NIT;
     }
@@ -40,7 +44,4 @@ public class Cliente {
         this.NIT = NIT;
     }
 
-    
-    
-    
 }
