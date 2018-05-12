@@ -9,11 +9,6 @@ public class Cliente {
     public Cliente() {
     }
 
-    public Cliente(String NIT) {
-        this.NIT = NIT;
-    }   
-    
-
     public int getIdCliente() {
         return IdCliente;
     }
